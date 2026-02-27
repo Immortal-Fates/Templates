@@ -1,0 +1,118 @@
+\ProvidesPackage{thesis}
+
+\RequirePackage{ctex}
+\RequirePackage{graphicx}
+\RequirePackage{footmisc}
+\RequirePackage{subfigure}
+\RequirePackage{subcaption}
+\RequirePackage{url}
+\RequirePackage{multirow}
+\RequirePackage{multicol}
+\RequirePackage{amsmath,amsthm}
+\RequirePackage{amssymb,amsfonts}
+\RequirePackage{booktabs}
+\RequirePackage{color}
+\RequirePackage{ccaption}
+\RequirePackage{float}
+\RequirePackage{fancyhdr}
+\RequirePackage{caption}
+\RequirePackage{stfloats}
+\RequirePackage{cuted}
+\RequirePackage{captionhack}
+\RequirePackage{gbt7714}
+
+
+
+%-------------------------全局设置------------------------------%
+\graphicspath{{figures/}}
+%footnote use of *
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{0}
+
+\renewcommand\footnotelayout{\zihao{5-}}
+
+\newtheoremstyle{mystyle}{0pt}{0pt}{\normalfont}{1em}{\bf}{}{1em}{}
+\theoremstyle{mystyle}
+\renewcommand\figurename{图~}
+\renewcommand{\thesubfigure}{(\alph{subfigure})}
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\newcommand{\abc}{\color{white}\vrule width 2pt}
+\renewcommand{\bibsection}{}
+\makeatletter
+\renewcommand{\@biblabel}[1]{[#1]\hfill}
+\makeatother
+\setlength\parindent{2em}
+
+\newcommand{\setpage}{
+  \hyphenpenalty=50000
+  \newcommand\mysmall{\@setfontsize\mysmall{7}{9.5}}
+  \newenvironment{tablehere}
+    {\def\@captype{table}}
+  
+  \let\temp\footnote
+  \renewcommand\footnote[1]{\temp{\zihao{-5}##1}}
+  \pagestyle{CjCheadings}
+}
+
+%-------------------------信息设置------------------------------%
+% 定义标题命令
+\newcommand{\mytitle}[1]{\def\themytitle{#1}}
+% 定义作者命令
+\newcommand{\myauthor}[1]{\def\themyauthor{#1}}
+% 定义学号命令
+\newcommand{\mystudentid}[1]{\def\themystudentid{#1}}
+% 定义课程命令
+\newcommand{\mycourse}[1]{\def\themycourse{#1}}
+
+%-------------------------框架设置------------------------------%
+%% 摘要设置
+\newcommand{\myabstract}[1]{
+  \zihao{5}{
+    \setlength{\baselineskip}{16pt}\selectfont{
+      \noindent {\heiti 摘\quad 要\quad }#1
+      \par
+    }
+  }
+}
+%% 关键词设置
+\newcommand{\keyword}[1]{
+    \zihao{5}{\noindent
+    {\heiti 关键词 \quad }{#1}
+    }
+}
+%% 标题设置
+\newcommand{\mytitlepage}[3]{
+    {
+      \centering
+      \vspace{11mm}
+      {\zihao{2} \heiti #1} % 使用#1代表标题
+      \vskip 5mm
+      {\zihao{4}\fangsong #2 \quad \zihao{4}\fangsong #3} % 使用#2代表作者姓名，#3代表学号
+      \vspace{5mm}
+      \vskip 5mm
+    }
+}
+
+%-------------------------参考文献------------------------------%
+\newcommand{\reference}{
+  \vspace {10mm}
+    \nocite{*}
+    \centerline
+    {\zihao{5}\textsf{参~考~文~献}}
+    \zihao{5-} \addtolength{\itemsep}{-1em}
+    \vspace {1.5mm}
+    \bibliographystyle{gbt7714-numerical}
+    \bibliography{ref.bib}
+}
+
+
+
+
+
+
+
+
+
+
