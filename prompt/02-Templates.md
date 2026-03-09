@@ -58,9 +58,9 @@ introduce the [section] in the following way - Takeaway - Motivation - Core Mech
 
 summarize they in English and lay they in typora format like this
 
-- Takeaway
+- Takeaway (in one or two sentence)
 
-- Prior
+- Motivation
 
 ...
 
