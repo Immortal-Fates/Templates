@@ -4,6 +4,12 @@
 
 [TOC]
 
+## For better prompt
+
+Reverse engineer out conversation and write the single prompt that would have produced my final response in one go.
+
+
+
 ## High-Quality Study Resources
 
 I am learning **[topic]** and I want the study plan formatted as a **Typora-optimized markdown table** with the following columns:
