@@ -72,6 +72,8 @@ summarize they in English and lay they in typora format like this
 
 and show out the math formula
 
+
+
 ## Discussion Roles
 
 Scientific Peer Reviewer. The paper has not been published yet and is currently submitted to a top conference where you’ve been assigned as a peer reviewer. Complete a full review of the paper answering all prompts of the official review form of the top venue in this research area (e.g., NeurIPS). This includes recommending whether to accept or reject the paper
