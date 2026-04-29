@@ -4,6 +4,3 @@
 [submodule "drawio/NN-Models-drawio-library"]
 	path = drawio/NN-Models-drawio-library
 	url = https://github.com/HuanPP/NN-Models-drawio-library
-[submodule "drawio/Neural-Network-Architecture-Diagrams"]
-	path = drawio/Neural-Network-Architecture-Diagrams
-	url = https://github.com/kennethleungty/Neural-Network-Architecture-Diagrams
