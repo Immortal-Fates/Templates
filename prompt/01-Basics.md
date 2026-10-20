@@ -51,11 +51,6 @@ prompt由几个关键组件构成
 >
 > 我可以如何将这件事做得更专业一些？
 
-## 常用工具
-
-- 绘图：[excalidraw](./excalidraw_prompt)
-- PPT：gamma
-
 ## References
 
 - [提示工程指南](https://learnprompting.org/zh-Hans/docs/introduction)
