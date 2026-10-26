@@ -3,4 +3,6 @@
 *.aux
 *.synctex.gz
 
+.DS_Store
+
 docs/superpowers
