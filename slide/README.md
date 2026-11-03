@@ -12,6 +12,7 @@
 6. `ee_ctrl_fig.ppt`：原始 97-2003 格式母版文件。
 7. `figs.pptx`：常用学术与图表素材。
 8. `template.pptx`：通用学术/商务汇报 PPT 模板。
+9. [slidevjs/slidev: Presentation Slides for Developers](https://github.com/slidevjs/slidev) awesome slide
 
 ## References
 
