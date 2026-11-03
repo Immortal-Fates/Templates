@@ -13,6 +13,7 @@
 7. `figs.pptx`：常用学术与图表素材。
 8. `template.pptx`：通用学术/商务汇报 PPT 模板。
 9. [slidevjs/slidev: Presentation Slides for Developers](https://github.com/slidevjs/slidev) awesome slide
+10. [nekomeowww/talks: 💬🗣️ Public talks I presented historically in VueConf, ViteConf, KubeCon, @DaoCloud, Demo Day, Demo Inn, all built with @slidevjs](https://github.com/nekomeowww/talks) talks good example using slidev.
 
 ## References
 
